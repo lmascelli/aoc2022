@@ -1,0 +1,4 @@
+D:/Projects/cpp/aoc2022/2/build/CMakeFiles/p1.dir
+D:/Projects/cpp/aoc2022/2/build/CMakeFiles/p2.dir
+D:/Projects/cpp/aoc2022/2/build/CMakeFiles/edit_cache.dir
+D:/Projects/cpp/aoc2022/2/build/CMakeFiles/rebuild_cache.dir
