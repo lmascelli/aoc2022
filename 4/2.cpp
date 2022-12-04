@@ -27,10 +27,9 @@ int main(int argc, char *argv[]) {
     r1[1] = stoi(tmp1.substr(tmp1.find('-')+1, tmp1.length()));
     r2[0] = stoi(tmp2.substr(0, tmp2.find('-')));
     r2[1] = stoi(tmp2.substr(tmp2.find('-')+1, tmp2.length()));
-    count += (r1[1]<r2[0] or r2[1]<r1[0]);
-    lines++;
+    count += (r1[1]>=r2[0] and r2[1]>=r1[0]);
   }
-  cout << lines - count << endl;
+  cout << count << endl;
   ifs.close();
   return 0;
 }
